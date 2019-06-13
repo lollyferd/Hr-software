@@ -1,0 +1,178 @@
+
+
+html, body{
+
+			height: 100%;
+			width: 100%;
+		   color: #222;
+		   
+
+}
+
+
+html, body, h1, h2, h3, h4, h5 {
+	font-family: "Open Sans", sans-serif;
+}
+.navbar{
+	padding: .5rem !important;
+	background-color: #F1F1F1 !important;
+}
+.nav-link{
+	padding-right: 5rem !important;
+	padding-left: 5rem !important;
+	line-height: 100% !important;
+	color: black !important;
+
+}
+
+.nav-link:hover{
+color: white !important;
+background-color:#795FCE !important;
+}
+
+
+.carousel-caption h5{
+	
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px  10px #000;
+	color: white;	
+}
+
+.exp{
+position: absolute;
+	top: 60%;
+	transform: translateY(-60%);
+	right: 25%;
+	transform: translateX(-25%);
+}
+
+.jumbotron{
+	padding: 1rem;
+	border-radius: 0;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.fa-wallet{
+	color: #563d7c;
+	font-size: 4rem;
+}
+.fa-at{
+	font-size: 4rem;
+	color: #e54d26;
+}
+
+/*.carousel-caption span: hover{
+	background-attachment: none;
+
+	
+}*/
+
+.myatag{
+	background-color:#e54d26 !important ;
+	color: white;
+}
+
+
+
+
+
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a{
+	color: #d5d5d5;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+
+
+@media (min-width: 1281px) {
+  
+ 
+  
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+.carousel-caption h5{
+	
+	font-size: 180%;
+	font-weight: 450;
+	text-shadow: 1px 1px  10px #000;	
+}
+
+
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .carousel-caption h5 {
+	
+	font-size: 170%;
+	font-weight: 400;
+	text-shadow: 1px 1px  10px #000;	
+}
+  .carousel-caption .btn{
+	font-size: 70%;
+	padding: 6px 12px;
+	
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+.carousel-caption h5 {
+	
+	font-size: 160%;
+	font-weight: 350;
+	text-shadow: 1px 1px  10px #000;	
+}
+  .carousel-caption .btn{
+	font-size: 60%;
+	padding: 7px 11px;
+	
+}
+}
+
+@media (max-width: 767px) {
+  
+.carousel-caption h5 {
+	
+	font-size: 100%;
+	font-weight: 250;
+	text-shadow: 1px 1px  10px #000;	
+}
+  .carousel-caption .btn{
+	font-size: 50%;
+	padding: 5px 9px;
+
+
+	
+}
+}
